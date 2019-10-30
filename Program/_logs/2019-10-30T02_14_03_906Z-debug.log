@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'create-react-app@latest',
+1 verbose cli   '--global',
+1 verbose cli   '--prefix',
+1 verbose cli   'C:\\Users\\Brien',
+1 verbose cli   'Bledsoe\\Documents\\DynamicWebApp\\Midterm\\Midterm\\Program\\_npx\\17164',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '--json'
+1 verbose cli ]
+2 info using npm@6.12.0
+3 info using node@v12.13.0
+4 verbose npm-session 876034bda15e4fe2
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData error for file:Bledsoe\Documents\DynamicWebApp\Midterm\Midterm\Program\_npx\17164 Could not install from "Bledsoe\Documents\DynamicWebApp\Midterm\Midterm\Program\_npx\17164" as it does not contain a package.json file.
+8 http fetch GET 304 https://registry.npmjs.org/create-react-app 309ms (from cache)
+9 silly pacote tag manifest for create-react-app@latest fetched in 327ms
+10 timing stage:rollbackFailedOptional Completed in 1ms
+11 timing stage:runTopLevelLifecycles Completed in 336ms
+12 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\Brien Bledsoe\Documents\DynamicWebApp\Midterm\Midterm\Bledsoe\Documents\DynamicWebApp\Midterm\Midterm\Program\_npx\17164\package.json'
+13 verbose cwd C:\Users\Brien Bledsoe\Documents\DynamicWebApp\Midterm\Midterm
+14 verbose Windows_NT 10.0.18362
+15 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "create-react-app@latest" "--global" "--prefix" "C:\\Users\\Brien" "Bledsoe\\Documents\\DynamicWebApp\\Midterm\\Midterm\\Program\\_npx\\17164" "--loglevel" "error" "--json"
+16 verbose node v12.13.0
+17 verbose npm  v6.12.0
+18 error code ENOLOCAL
+19 error Could not install from "Bledsoe\Documents\DynamicWebApp\Midterm\Midterm\Program\_npx\17164" as it does not contain a package.json file.
+20 verbose exit [ 1, true ]
