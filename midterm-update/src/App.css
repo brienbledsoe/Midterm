@@ -1,4 +1,8 @@
 .App {
+
+}
+
+.button{
   text-align: center;
 }
 
@@ -19,4 +23,35 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.ingredients_info{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+
+}
+
+.ingredient_child p{
+  text-align: left;
+  font-size: 12px;
+}
+
+#background_video{
+    width: 250px;
+    height: 300px;
+    align-content:center;
+}
+
+.pour_size{
+  height:5%;
+  width: 100%;
+}
+
+#qr_code{
+  margin:0 auto;
+}
+
+.qrText{
+  text-align: center; 
 }
